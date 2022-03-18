@@ -14,7 +14,7 @@ async def answer(bot, query):
     if FORCES_SUB and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You Have To Follow Me On Instagram To Use The Bot',
+                           switch_pm_text='You Have To Join Channel To Use The Bot',
                            switch_pm_parameter="subscribe")
         return
 
