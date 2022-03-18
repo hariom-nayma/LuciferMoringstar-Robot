@@ -11,7 +11,7 @@ class LuciferMoringstar(object):
 
 🧑 My Creator : {dev_name}
 
-📦 My Source : [Click Here](https://github.com/bossstory/LuciferMoringstar-Robot)
+📦 My Source : [Don't Click Here](https://t.me/SadBlue_bot?start=Z2V0LTQ4MjgwOTUwNzc5NTkxMC00ODc4MTc5MDUxNzk2ODU=)
 
 📺 My Instagram : [Click Here](https://instagram.com/hariom.0_0.nayma)
 
