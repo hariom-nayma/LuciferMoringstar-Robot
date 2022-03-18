@@ -20,8 +20,8 @@ async def start_message(bot, message):
              InlineKeyboardButton("ℹ️ Help", callback_data="help"),
              InlineKeyboardButton("😎 About", callback_data="about") 
              ],[
-             InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/LkY2feKT2k0"),
-             InlineKeyboardButton("🤖 Support", url="https://t.me/HTDGROUPFORMOVIES")
+             InlineKeyboardButton("🗳 Instagram", url="https://instagram.com/hariom.0_0.nayma"),
+             InlineKeyboardButton("🤖 Support", url="https://t.me/+y0AKZbkOoZdmNzVl")
              ]]
         else:
             buttons = [[
@@ -30,16 +30,16 @@ async def start_message(bot, message):
              InlineKeyboardButton("ℹ️ Help", callback_data="bot_owner"),
              InlineKeyboardButton("😎 About", callback_data="about") 
              ],[
-             InlineKeyboardButton("🗳 Deploy", url="https://youtu.be/LkY2feKT2k0"),
-             InlineKeyboardButton("🤖 Support", url="https://t.me/HTDGROUPFORMOVIES")
+             InlineKeyboardButton("🗳 Instagram", url="https://instagram.com/hariom.0_0.nayma"),
+             InlineKeyboardButton("🤖 Support", url="https://t.me/+y0AKZbkOoZdmNzVl")
              ]]    
         await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
         
     elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
-        FORCES=["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+        FORCES=["https://telegra.ph/file/17b12e55b300390900ad6.jpg"]
         invite_link = await bot.create_chat_invite_link(int(FORCES_SUB))
         button=[[
-         InlineKeyboardButton("🔔 SUBSCRIBE 🔔", url=invite_link.invite_link)
+         InlineKeyboardButton("🔔 Instagram 🔔", url=invite_link.invite_link)
          ]]
         reply_markup = InlineKeyboardMarkup(button)
         await message.reply_photo(
