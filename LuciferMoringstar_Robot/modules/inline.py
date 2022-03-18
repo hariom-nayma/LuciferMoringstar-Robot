@@ -14,7 +14,7 @@ async def answer(bot, query):
     if FORCES_SUB and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You Have To Subscribe My Channel To Use The Bot',
+                           switch_pm_text='You Have To Follow Me On Instagram To Use The Bot',
                            switch_pm_parameter="subscribe")
         return
 
@@ -86,8 +86,8 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('Support Group', url='t.me/HTDGROUPFORMOVIES'),
-        InlineKeyboardButton('More Botz', url='t.me/howtodoyt')
+        InlineKeyboardButton('Support Group', url='t.me/+y0AKZbkOoZdmNzVl'),
+        InlineKeyboardButton('More Botz', url='t.me/sadsoul_bot')
         ],[
         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
         ]]
