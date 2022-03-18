@@ -2,22 +2,22 @@ class LuciferMoringstar(object):
 
     DEFAULT_MSG = """👋Hello {mention}.....!!!\nIt's Power Full [{bot_name}](t.me/{bot_username}) Here 😎\nAdd Me To Your Group And Make Sure I'm an Admin There! \nAnd Enjoy My Pever Show.....!!!🤪"""
 
-    HELP_MSG = """**You can contact me @howtodoyt**"""
+    HELP_MSG = """**You can contact me @hariom_nayma**"""
 
     ABOUT_MSG = """
 🤖 My Name [{bot_name}](t.me/{bot_username})
 
-🧑 My Dev : [HOWTODO](t.me/howtodoyt)
+🧑 My Dev : [Developer](t.me/hariomnayma)
 
 🧑 My Creator : {dev_name}
 
 📦 My Source : [Click Here](https://github.com/bossstory/LuciferMoringstar-Robot)
 
-📺 My Youtube : [Ckick Here](https://www.youtube.com/channel/UCohk_mpuW8SpgZMyOzRdKcA)
+📺 My Instagram : [Click Here](https://instagram.com/hariom.0_0.nayma)
 
-🏷️ My Updates : [HOW TO DO](t.me/HTDGROUPFORMOVIES)
+🏷️ My Updates : [SaDsouL](t.me/sadsoul_bot)
 
-🗣️ My Support : [Any Doubt](t.me/howtodoyt)"""
+🗣️ My Support : [ChecK](t.me/+y0AKZbkOoZdmNzVl)"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
