@@ -11,7 +11,7 @@
       "bot"
     ],
     "website": "https://www.youtube.com/channel/UCohk_mpuW8SpgZMyOzRdKcA",
-    "repository": "https://github.com/bossstory/LuciferMoringstar-Robot",
+    "repository": "https://github.com/hariom-nayma/LuciferMoringstar-Robot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token From BOT FATHER",
@@ -83,7 +83,7 @@
         },
         "SUPPORT": {
             "description": "Your Group Link Private or Public Link (with t.me or https://t.me)",
-            "value": "https://t.me/HTDGROUPFORMOVIES",
+            "value": "https://t.me/+y0AKZbkOoZdmNzVl",
             "required": true
         }
     },
